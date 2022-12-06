@@ -13,6 +13,7 @@ $(document).ready(function () {
   var culture = $("body").attr("data-culture");
   console.log("pageid", pageid)
   console.log("culture", culture)
+  console.log("test")
 
   // checks waiting room phase
   if (pageid === "before") {
