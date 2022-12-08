@@ -7,8 +7,11 @@
   <title>Page Title</title>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
   <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <link rel='stylesheet' type='text/css' media='screen' href='custom/custom.css'>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src='main.js'></script>
+  <script src='custom/custom.js'></script>
+  <!-- TODO : custom 폴더 내에 생성되는 파일 자동 추가 -->
 </head>
 
 <body data-pageid="queue" class="queue" data-culture="en-US">
@@ -41,12 +44,12 @@
       <div id="main_c" class="c">
         <div id="content">
           <div id="header">
-            <h1 id="logocontainer" class="logo" data-bind="visible: layout.logoVisible">
+            <!-- <h1 id="logocontainer" class="logo" data-bind="visible: layout.logoVisible">
               <img
                 src="//queueit-company-us-west-2.s3.amazonaws.com/nway/userdata/system_modified/fd53834a-6889-4716-b4b4-ae73d575ebd6/nWay_logo_horizontal.png"
                 id="imgCustomerLogo" alt="My Layout Test Event" longdesc="company logo for nWay"
                 data-bind="attr: { src: texts.logoSrc }">
-            </h1>
+            </h1> -->
             <h2 id="headertext">
               <span id="lbHeaderH2" data-bind="html: texts.header">You are now in line</span>
             </h2>

@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Black+Han+Sans&family=Do+Hyeon&family=Dongle&family=Gothic+A1&family=Gowun+Dodum&family=IBM+Plex+Sans+KR&family=Jua&family=Nanum+Gothic&family=Noto+Sans+KR&family=Stylish&family=Sunflower:wght@500&display=swap");
+
+body {
+  background: #111111;
+}
+
+span {
+  color: #ffffff;
+}
+
+#wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+div#main {
+  width: inherit;
+  max-width: inherit;
+  margin: 0;
+}
+
+div#main > div[id^="main"] {
+  background: #111111;
+}
+
+div#main_c.c {
+  border: 1px solid #444444;
+  padding: 20px;
+}
+
+div#header {
+  padding: 0;
+}
+#header,
+.warning-box {
+  border: none;
+}
+
+div#header span#lbHeaderH2 {
+  font-family: "Eurostile Extd";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+
+div#header span#lbHeaderP {
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  margin: 20px 0;
+  color: #eeeeee;
+}
+
+div#headerparagraph {
+  margin: 20px 0;
+}
+
+#whatisthis {
+  display: none;
+}
+
+div.warning-box {
+  padding: 0;
+  min-height: 0;
+  margin: 20px 0;
+}
+
+div.warning-box,
+div#MainPart_divProgressbarBox,
+.processbar-box .holder {
+  background: transparent;
+}
+
+div.warning-box > p {
+  display: none;
+}
+
+div#MainPart_divProgressbar {
+  border: none;
+  height: 8px;
+}
+
+div#MainPart_divProgressbar > div.progress {
+  background: linear-gradient(270deg, #ffffff 0%, #0073f0 17.51%);
+}
+div#MainPart_divProgressbar > div.clear {
+  background: #444444;
+}
+
+div.processbar-box .holder {
+  padding: 0;
+}
+
+div.processbar-box .holder .larger {
+  text-align: left;
+  min-height: 0;
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+p#MainPart_pProgressbarBox_Holder_Larger span[id$="Text"],
+div#MainPart_divProgressbarBox_Holder_LastUpdateTime > span {
+  font-weight: 500;
+  color: #999999;
+}
+
+p#MainPart_pProgressbarBox_Holder_Larger span[id$="Text"] {
+  margin-right: 8px;
+}
+
+div#MainPart_divProgressbarBox_Holder_LastUpdateTime {
+  text-align: left;
+}
+
+#rightpanel {
+  display: block !important;
+  border: 1px solid grey;
+  /* TODO : rightpanel.html */
+}
+@media screen and (max-width: 650px) {
+  #wrapper {
+    flex-direction: column;
+  }
+}
